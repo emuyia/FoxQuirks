@@ -1,0 +1,22 @@
+<Project>
+    <Import Project="Sdk.targets" Sdk="Sigurd.Thunderstore.Sdk" />
+
+    <!-- prevent referenced assemblies from being copied to output folders -->
+    <Target Name="ClearReferenceCopyLocalPaths" AfterTargets="ResolveAssemblyReferences" Condition="$(ClearCopyLocalPaths)">
+        <ItemGroup>
+            <ReferenceCopyLocalPaths Remove="@(ReferenceCopyLocalPaths)"/>
+        </ItemGroup>
+    </Target>
+
+    <Target Name="SetThunderstorePackageVersion" DependsOnTargets="MinVer">
+        <PropertyGroup>
+            <ThunderstorePackageVersion>$(MinVerMajor).$(MinVerMinor).$(MinVerPatch)</ThunderstorePackageVersion>
+        </PropertyGroup>
+    </Target>
+
+    <Target Name="CopyToTestProfile" AfterTargets="Build" Condition="$(ShouldCopyToTestProfile) == 'true' AND Exists('$(TestProfileDir)')">
+        <Message Text="Copying to Test Profile: $(TestProfileDir)" Importance="high" />
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(TestProfileDir)/BepInEx/plugins/$(ThunderstoreNamespace)-$(AssemblyName)" />
+    </Target>
+
+</Project>

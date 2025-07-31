@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxQuirks", "FoxQuirks.csproj", "{77FCD5CD-B973-E5DC-5599-C7B98863AC01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FCD5CD-B973-E5DC-5599-C7B98863AC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FCD5CD-B973-E5DC-5599-C7B98863AC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FCD5CD-B973-E5DC-5599-C7B98863AC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FCD5CD-B973-E5DC-5599-C7B98863AC01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3170CC9B-69FB-4B0A-A3B4-C97BF99743C7}
+	EndGlobalSection
+EndGlobal
