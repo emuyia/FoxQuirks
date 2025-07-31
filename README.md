@@ -6,7 +6,7 @@ Currently only one, but more to come!
 
 ## Quirks
 
-- **ShipSanctuary** - Prevent the fox from entering the ship.
+- **Ship Sanctuary** - Prevent the fox from entering the ship.
 
 
 ## Credits:

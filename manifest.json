@@ -1,0 +1,9 @@
+{
+    "name": "FoxQuirks",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/emuyia/FoxQuirks",
+    "description": "My quirks & changes to the Kidnapper fox.",
+    "dependencies": [
+        "Dev1A3-YesFox-1.1.5"
+    ]
+}

@@ -369,5 +369,7 @@ FodyWeavers.xsd
 
 .DS_Store
 
-Package
-Package/*.*
+package
+package/*.*
+*.zip
+Reference

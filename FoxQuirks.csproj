@@ -58,7 +58,7 @@
         <!-- This is a direct reference to the game's main code library. -->
         <!-- You MUST update this path to match where the file is on YOUR computer. -->
         <Reference Include="Assembly-CSharp">
-            <HintPath>I:\Games\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Assembly-CSharp.dll</HintPath>
+            <HintPath>/Users/em/Documents/CrossoverSteamDrive/steamapps/common/Lethal Company/Lethal Company_Data/Managed/Assembly-CSharp.dll</HintPath>
             <Private>false</Private>
         </Reference>
     </ItemGroup>
