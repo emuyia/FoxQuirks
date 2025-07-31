@@ -1,10 +1,14 @@
 # FoxQuirks
-My personal quirks & changes to the Kidnapper fox.
+My quirks & changes to the Kidnapper fox.
 
-### Features
+Currently only one, but more to come!
+
+
+## Quirks
 
 - **ShipSanctuary** - Prevent the fox from entering the ship.
 
-All features are configurable!
 
-More to come.
+## Credits:
+
+- Art by who.is.wren / who_is_wren
